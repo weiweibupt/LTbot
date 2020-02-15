@@ -1,15 +1,12 @@
 <template>
-  <div class="hello">
-    <first></first>
-    <p>helloworld</p>
-  <second></second>
-  <el-button>element-ui-button </el-button>
+  <div>
+  <p>first</p>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'HelloWorld',
+  name: 'First',
   props: {
     msg: String
   }

@@ -1,5 +1,8 @@
 # idbot
 
+
+# 执行npm run dll命令  在public中会生成vendor文件夹，里面包括vendor.dll.ks和vendor-manifest.json
+# tips：每次添加新依赖后，一定要运行npm run dll这个命令一次。
 ## Project setup
 ```
 npm install
