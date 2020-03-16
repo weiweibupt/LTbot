@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-// import HelloWorld from '../components/HelloWorld'
 
+//自动注册路由
 let routersArr=[];
 let r=require.context("../components",true,/\.router\.js/);
 // console.log(r.keys())  //["./md/md.router.js", "./qa/qa.router.js"]

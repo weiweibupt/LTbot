@@ -1,8 +1,4 @@
-// import api1 from '../components/md/api/md.api.js'
-// // import api2 from '../components/qa/api/index.js'
-
-// console.log(api1)
-// console.log(api2)
+//自动注册API
 
 let api={};
 let r=require.context('../components',true,/api\.js/);

@@ -20,7 +20,7 @@ r.keys().forEach(key=>{
         })
     }else{
         arr.push({
-            path:"/md"+_keyarr[1],
+            path:_keyarr[1],
             component:r(key).default    //用webpackChunkName把同模块的异步加载都放到一个包里    
         })
     }

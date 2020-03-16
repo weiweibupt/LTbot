@@ -2,7 +2,7 @@ import myserve from '../../../service/request.js'
 
 
 let login={
-    loginIn:'/api/login',
+    loginIn:'/login',
     loginOut:'/api/loginOut'
 }
 

@@ -12,7 +12,8 @@ app.use(function(res,req,next){
 })
 // var cors = require('cors')
 // app.use(cors())
-app.listen(8888);
-app.get('/api/login',function(req,res){
-    res.end("/api/login的回复：helloworld")
+app.listen(3000);
+app.get('*',function(req,res){
+    console.log(req)
+    res.end("接口返回：helloworld")
 })
